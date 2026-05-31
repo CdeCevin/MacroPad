@@ -79,8 +79,8 @@ Para conectar el teclado matricial de 4x4 a la placa Arduino, utiliza la siguien
 * **Filas (Rows 0 a 3):** Pines digitales **8, 9, 10 y 11** del Arduino.
 * **Columnas (Columns 0 a 3):** Pines digitales **5, 4, 3 y 2** del Arduino.
 
-*(Inserta aquí tu diagrama de conexiones:)*
-![Diagrama de Conexiones del Circuito](PEGAR_LINK_O_RUTA_DE_TU_FOTO_DE_CONEXIONES_AQUI)
+![Diagrama de Conexiones del Circuito](<img width="1546" height="798" alt="image" src="https://github.com/user-attachments/assets/83d21a7e-5be6-48b0-af83-4ffd88928069" />
+)
 
 ---
 
@@ -88,8 +88,9 @@ Para conectar el teclado matricial de 4x4 a la placa Arduino, utiliza la siguien
 
 La aplicación de Electron te permite reordenar, mapear y gestionar de forma visual y en caliente todos tus accesos directos:
 
-*(Inserta aquí tu captura de la interfaz gráfica:)*
-![Vista previa de la Interfaz Gráfica](PEGAR_LINK_O_RUTA_DE_TU_FOTO_DE_LA_UI_AQUI)
+
+![Vista previa de la Interfaz Gráfica]<img width="1090" height="797" alt="image" src="https://github.com/user-attachments/assets/cdc06ec5-c051-4f43-80c9-6028d49a9609" />
+
 
 ---
 
