@@ -79,7 +79,8 @@ Para conectar el teclado matricial de 4x4 a la placa Arduino, utiliza la siguien
 * **Filas (Rows 0 a 3):** Pines digitales **8, 9, 10 y 11** del Arduino.
 * **Columnas (Columns 0 a 3):** Pines digitales **5, 4, 3 y 2** del Arduino.
 
-![Diagrama de Conexiones del Circuito](<img width="1546" height="798" alt="image" src="https://github.com/user-attachments/assets/83d21a7e-5be6-48b0-af83-4ffd88928069" />
+![Diagrama de Conexiones del Circuito]<img width="1546" height="798" alt="image" src="https://github.com/user-attachments/assets/211dbb75-4785-42bb-8094-c47925bee497" />
+
 )
 
 ---
