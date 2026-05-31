@@ -1,0 +1,17 @@
+# Dependencias
+node_modules/
+
+# Compilaciones y Empaquetado
+MacroPadConfig-win32-x64/
+dist/
+out/
+build/
+
+# Logs locales del sistema
+logs/
+*.log
+
+# Entornos locales y temporales
+.env
+.DS_Store
+Thumbs.db

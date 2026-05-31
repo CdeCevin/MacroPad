@@ -1,0 +1,82 @@
+{
+    "0": {
+        "nombre": "Tecla 0: RuntimeClient-Win64-Shipping.exe",
+        "tipo": "app",
+        "valor": "F:\\Steam\\steamapps\\common\\Rematch\\Runtime\\Binaries\\Win64\\RuntimeClient-Win64-Shipping.exe"
+    },
+    "1": {
+        "nombre": "4: Mute Discord",
+        "tipo": "script",
+        "valor": "mutear_discord"
+    },
+    "2": {
+        "nombre": "Tecla 2: Ensordecer",
+        "tipo": "script",
+        "valor": "ensordecer_discord"
+    },
+    "3": {
+        "nombre": "Tecla 3: LMS UCM",
+        "tipo": "web_edge",
+        "valor": "https://lms.ucm.cl/my/"
+    },
+    "4": {
+        "nombre": "Tecla 4: Portal UCM",
+        "tipo": "web_edge",
+        "valor": "https://sapprd.ucm.cl/sap/bc/ui2/flp?sap-ushell-config=embedded#CompetencyEvidence-display"
+    },
+    "5": {
+        "nombre": "Tecla 5: YouTube",
+        "tipo": "web",
+        "valor": "https://www.youtube.com"
+    },
+    "6": {
+        "nombre": "Tecla 6: Netflix",
+        "tipo": "web_edge",
+        "valor": "https://www.netflix.com/browse"
+    },
+    "7": {
+        "nombre": "Tecla 7: Disney+",
+        "tipo": "web_edge",
+        "valor": "https://www.disneyplus.com/es-419/home?"
+    },
+    "8": {
+        "nombre": "Tecla 8: x.com",
+        "tipo": "web",
+        "valor": "https://x.com/home"
+    },
+    "9": {
+        "nombre": "Tecla 9: gemini.google.com",
+        "tipo": "web",
+        "valor": "https://gemini.google.com/app?hl=es"
+    },
+    "*": {
+        "nombre": "Tecla *: RocketLeague.exe",
+        "tipo": "app",
+        "valor": "F:\\Epic Games\\rocketleague\\Binaries\\Win64\\RocketLeague.exe"
+    },
+    "#": {
+        "nombre": "Tecla #: Moonlighter 2 The Endless Vault.exe",
+        "tipo": "app",
+        "valor": "F:\\Steam\\steamapps\\common\\Moonlighter 2 The Endless Vault\\Moonlighter 2 The Endless Vault.exe"
+    },
+    "A": {
+        "nombre": "Tecla A: Toggle Steam",
+        "tipo": "script",
+        "valor": "toggle_steam"
+    },
+    "B": {
+        "nombre": "Tecla B: WhatsApp",
+        "tipo": "script",
+        "valor": "toggle_whatsapp"
+    },
+    "C": {
+        "nombre": "Tecla C: RiotClientServices.exe",
+        "tipo": "app",
+        "valor": "F:\\Riot Games\\Riot Client\\RiotClientServices.exe"
+    },
+    "D": {
+        "nombre": "Tecla D: MacroPadConfig.exe",
+        "tipo": "app",
+        "valor": "E:\\Descargas\\Arduino\\MacroPadConfig-win32-x64\\MacroPadConfig.exe"
+    }
+}
