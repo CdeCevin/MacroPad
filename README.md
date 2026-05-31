@@ -72,6 +72,27 @@ Se implementaron algunas soluciones para que el uso diario sea cómodo y estable
 
 ---
 
+## Conexiones del Teclado Matricial
+
+Para conectar el teclado matricial de 4x4 a la placa Arduino, utiliza la siguiente correspondencia de pines digitales:
+
+* **Filas (Rows 0 a 3):** Pines digitales **8, 9, 10 y 11** del Arduino.
+* **Columnas (Columns 0 a 3):** Pines digitales **5, 4, 3 y 2** del Arduino.
+
+*(Inserta aquí tu diagrama de conexiones:)*
+![Diagrama de Conexiones del Circuito](PEGAR_LINK_O_RUTA_DE_TU_FOTO_DE_CONEXIONES_AQUI)
+
+---
+
+## Visualización de la Interfaz Gráfica (UI)
+
+La aplicación de Electron te permite reordenar, mapear y gestionar de forma visual y en caliente todos tus accesos directos:
+
+*(Inserta aquí tu captura de la interfaz gráfica:)*
+![Vista previa de la Interfaz Gráfica](PEGAR_LINK_O_RUTA_DE_TU_FOTO_DE_LA_UI_AQUI)
+
+---
+
 ## Instalación y Uso
 
 ### 1. Cargar el Firmware
