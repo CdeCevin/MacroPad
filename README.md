@@ -131,6 +131,47 @@ python control.py
 
 ---
 
+## Automatización y Ejecución Silenciosa
+
+Para dejar el programa corriendo en segundo plano sin que se muestre una ventana de comandos en tu pantalla y configurarlo al arrancar Windows:
+
+### 1. Archivos de Arranque Oculto
+Crea estos dos archivos en la carpeta de tu proyecto para ejecutar el script sin mostrar la consola:
+
+*   **`arranque.bat`:**
+    ```batch
+    @echo off
+    cd /d "tu/ruta/al/proyecto"
+    python control.py
+    ```
+*   **`lanzador_silencioso.vbs`:**
+    ```vbs
+    Set WshShell = CreateObject("WScript.Shell")
+    WshShell.Run chr(34) & "tu/ruta/al/proyecto/arranque.bat" & Chr(34), 0
+    Set WshShell = Nothing
+    ```
+
+### 2. Iniciar con Windows (`taskschd.msc`)
+Para arrancar el programa de forma automática y con los permisos necesarios para realizar los reinicios de puerto COM:
+1.  Abre el Programador de Tareas (`taskschd.msc`).
+2.  Crea una tarea programada para ejecutarse **"Al iniciar sesión"** de tu usuario.
+3.  Establece la acción para iniciar el programa apuntando a tu archivo `lanzador_silencioso.vbs`.
+4.  En los ajustes de la tarea:
+    *   Marca la opción **"Ejecutar con los privilegios más altos"** (Administrador).
+    *   Activa la casilla **"Oculta"**.
+    *   En la pestaña de *Condiciones*, desmarca *"Iniciar la tarea solo si el equipo está conectado a la corriente"* (para laptops).
+
+### 3. Botón de Pánico: Reinicio directo a la BIOS
+Si quieres asignar un botón de tu control para reiniciar directamente en la BIOS/UEFI de tu placa, puedes configurar una macro que llame al siguiente archivo ejecutable:
+
+*   **`reinicio_bios.bat`:**
+    ```batch
+    @echo off
+    shutdown /r /fw /t 0
+    ```
+
+---
+
 ## Estructura del Archivo `config.json`
 
 La configuración de las teclas se almacena en el archivo `config.json` con la siguiente estructura:
